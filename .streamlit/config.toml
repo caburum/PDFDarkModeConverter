@@ -1,7 +1,7 @@
 [theme]
 primaryColor="green"
-backgroundColor="#0E1117"
+backgroundColor="#000000"
 secondaryBackgroundColor="#262730"
-textColor="#FAFAFA"
+textColor="#EEEEEE"
 [server]
 maxUploadSize = 200
