@@ -66,7 +66,7 @@ def process_pdf(input_pdf_bytes, dpi, page_callback):
 		image_bytes = io.BytesIO(buffer.tobytes())
 
 		# A4 size: 595 x 842 pt
-		MAX_WIDTH = 842
+		MAX_WIDTH = 792 # 11"
 		if page_width > MAX_WIDTH:
 			page_height = MAX_WIDTH * page_height / page_width
 			page_width = MAX_WIDTH
